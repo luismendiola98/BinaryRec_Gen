@@ -1,0 +1,99 @@
+Script started on Fri 13 Sep 2019 11:50:48 AM PDT
+]0;mendi016@empress:~/cs421/HW1B_RecGen[?1034h[mendi016@empress HW1B_RecGen]$ g++ recognizer.cpp -std=c++11
+]0;mendi016@empress:~/cs421/HW1B_RecGen[mendi016@empress HW1B_RecGen]$ ./a.out
+
+Please enter a string of numbers to recognize whether or not it is a binary number: 
+0
+
+The number entered: 0
+
+The length of 0 is: 1
+
+YES IN L
+
+Would you like to continue testing numbers?
+
+Enter "y" or "Y" to continue. 
+Otherwise enter anything to exit. 
+y
+
+Please enter a string of numbers to recognize whether or not it is a binary number: 
+1
+
+The number entered: 1
+
+The length of 1 is: 1
+
+YES IN L
+
+Would you like to continue testing numbers?
+
+Enter "y" or "Y" to continue. 
+Otherwise enter anything to exit. 
+Y
+
+Please enter a string of numbers to recognize whether or not it is a binary number: 
+00110
+
+The number entered: 00110
+
+The length of 00110 is: 5
+
+YES IN L
+
+Would you like to continue testing numbers?
+
+Enter "y" or "Y" to continue. 
+Otherwise enter anything to exit. 
+y
+
+Please enter a string of numbers to recognize whether or not it is a binary number: 
+2
+
+The number entered: 2
+
+The length of 2 is: 1
+
+NOT IN L
+
+Would you like to continue testing numbers?
+
+Enter "y" or "Y" to continue. 
+Otherwise enter anything to exit. 
+Y
+
+Please enter a string of numbers to recognize whether or not it is a binary number: 
+02
+
+The number entered: 02
+
+The length of 02 is: 2
+
+NOT IN L
+
+Would you like to continue testing numbers?
+
+Enter "y" or "Y" to continue. 
+Otherwise enter anything to exit. 
+Y
+
+Please enter a string of numbers to recognize whether or not it is a binary number: 
+31
+
+The number entered: 31
+
+The length of 31 is: 2
+
+NOT IN L
+
+Would you like to continue testing numbers?
+
+Enter "y" or "Y" to continue. 
+Otherwise enter anything to exit. 
+n
+
+GOOD BYE!
+]0;mendi016@empress:~/cs421/HW1B_RecGen[mendi016@empress HW1B_RecGen]$ exit
+exit
+
+Script done on Fri 13 Sep 2019 11:54:29 AM PDT
